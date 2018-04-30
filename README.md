@@ -10,6 +10,15 @@
 [youtube_url]: https://www.youtube.com/
 Click this icon to find us on  [![alt text][youtube_icon]][youtube_url]
 
+## The Team
+The team members are as follows:
+
+* **Jack Croal**
+* **Chris Brown**
+* **Alex Smith**
+* **Timothy Ness**
+* **Cameron Houston**
+
 ## University of Glasgow
 Developed as part of our final year project at the University of Glasgow.
 
