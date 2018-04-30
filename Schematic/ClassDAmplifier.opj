@@ -1,0 +1,272 @@
+(ExpressProject "ClassDAmplifier"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\parts\classd_parts.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\classdamplifier.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File "H:\SCHEMATIC\CLASSDAMPLIFIER.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "M:\V5\CLASSDAMPLIFIER.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File "M:\V5\CLASSDAMPLIFIER.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File ".\classdamplifier.RPT")
+    (FLDSTUFF_Update_File ".\classdamplifier.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "FALSE")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "./")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File"
+       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmp.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "75")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    ("Allegro Netlist Input Board File"
+       "H:\DSP5-Circuit-Design-Files\Layout\ClassDAmp.brd"))
+  (Folder "Outputs"
+    (File ".\classdamplifier.drc"
+      (Type "Report"))
+    (File ".\classdamplifier.bom"
+      (Type "Report"))
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "Cameron")
+  (PartMRUSelector
+    (GND3
+      (LibraryName
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SHORTING
+      (FullPartName "SHORTING.Normal")
+      (LibraryName
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("DIODE PIN"
+      (FullPartName "DIODE PIN.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (test_point_0
+      (FullPartName "test_point_0.Normal")
+      (LibraryName "H:\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (DeviceIndex "0"))
+    (GND1
+      (LibraryName
+         "H:\DRIVE-DOWNLOAD-20180123T101900Z-001\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (BNC
+      (FullPartName "BNC.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM317M
+      (FullPartName "LM317M.Normal")
+      (LibraryName "H:\SCHEMATIC\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (test_point
+      (FullPartName "test_point.Normal")
+      (LibraryName "H:\SCHEMATIC\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (GND2
+      (LibraryName
+         "H:\DRIVE-DOWNLOAD-20180123T101900Z-001\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (INDUCTOR
+      (FullPartName "INDUCTOR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (NC7SV74
+      (FullPartName "NC7SV74.Normal")
+      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (UCC27211
+      (FullPartName "UCC27211.Normal")
+      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (PFS7525
+      (FullPartName "PFS7525.Normal")
+      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    (LTC6907
+      (FullPartName "LTC6907.Normal")
+      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0"))
+    ("MOSFET - NVD5C684NL"
+      (FullPartName "MOSFET - NVD5C684NL.Normal")
+      (LibraryName "H:\SCHEMATIC V2\CLASS D PARTS\CLASSD_PARTS.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn")
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\Schematic\classdamplifier.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Users\Cameron\Documents\DSP5-Circuit-Design-Files\parts\classd_parts.olb")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 895 1095 98 586"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1160 0 305")
+        (Scroll "47 270")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1 - Sigma Delta Modulator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1186 26 331")
+        (Scroll "-100 80")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "2 - MOSFET Driver"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1212 52 357")
+        (Scroll "626 866")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3 - Power Supplies"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1238 78 383")
+        (Scroll "3864 4216")
+        (Zoom "800")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CAMERON\DOCUMENTS\DSP5-CIRCUIT-DESIGN-FILES\SCHEMATIC\CLASSDAMPLIFIER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "4 - Output Filter & Connectors")))
+  (ISPCBBASICLICENSE "false"))
