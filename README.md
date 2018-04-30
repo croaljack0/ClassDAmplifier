@@ -6,7 +6,7 @@
 
 **Find our promotional video on YouTube:** https://www.youtube.com/
 
-[youtube_icon]: https://raw.githubusercontent.com/croaljack0/ClassDAmp/master/Media/youtube_icon.png
+[youtube_icon]: https://raw.githubusercontent.com/croaljack0/ClassDAmplifier/master/Media/youtube_icon.png
 [youtube_url]: https://www.youtube.com/
 Click this icon to find us on  [![alt text][youtube_icon]][youtube_url]
 
