@@ -2,7 +2,7 @@
 
 ### Class-D Amplifier Project
 
-*Find the files and software for the hardware and software implementations of a class-D amplifier.*
+*The files and software for the hardware and software implementations of a class-D amplifier, available for download.*
 
 **Find our promotional video on YouTube:** https://www.youtube.com/
 
