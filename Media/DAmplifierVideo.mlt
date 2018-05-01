@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_GB" version="6.7.0" title="Shotcut version 18.03.06" producer="main bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="1920" display_aspect_den="1080" frame_rate_num="16638000" frame_rate_den="277217" colorspace="601"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.999">
+    <property name="length">04:00:00.017</property>
+    <property name="eof">pause</property>
+    <property name="resource">GitHubSlide.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">1c69c8209ce666db8db34088f89a70b7</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="03:59:59.999">
+    <property name="length">04:00:00.017</property>
+    <property name="eof">pause</property>
+    <property name="resource">EndingSlide.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">c65ffe78e8f5b10958305ea07a94e292</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main bin" title="Shotcut version 18.03.06">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:03.982"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:03.982"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:37.239">
+    <property name="length">00:00:37.256</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:37.239"/>
+  </playlist>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:00:46.186">
+    <property name="length">00:00:46.203</property>
+    <property name="eof">pause</property>
+    <property name="resource">VID_20180430_142547.mp4</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">2793b36159916966eed3d5c38db67bb4</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="shotcut:caption">VID_20180430_142547.mp4</property>
+    <property name="shotcut:detail">VID_20180430_142547.mp4</property>
+    <property name="shotcut:comment"></property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:25.076" out="00:00:26.076">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:01.216" out="00:00:06.331">
+    <property name="length">04:00:00.017</property>
+    <property name="eof">pause</property>
+    <property name="resource">EndingSlide.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">c65ffe78e8f5b10958305ea07a94e292</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.600">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:00:25.476" out="00:00:26.076"/>
+    <track producer="producer3" in="00:00:00.600" out="00:00:01.200"/>
+    <transition id="transition0" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:02.999" out="00:00:09.014">
+    <property name="length">04:00:00.017</property>
+    <property name="eof">pause</property>
+    <property name="resource">GitHubSlide.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="mlt_service">qimage</property>
+    <property name="shotcut:hash">1c69c8209ce666db8db34088f89a70b7</property>
+    <property name="ignore_points">0</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:25.459"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.600"/>
+    <entry producer="producer3" in="00:00:01.216" out="00:00:06.331"/>
+    <entry producer="producer4" in="00:00:02.999" out="00:00:09.014"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 18.03.06" global_feed="1" in="00:00:00.000" out="00:00:37.239">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.588704</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
